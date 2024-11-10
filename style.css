@@ -68,7 +68,7 @@ body{
 }
 
 .container.start .user_result {
-    transform-origin: left;
+    transform-origin: right;
     animation: userShake 0.7s ease infinite;
 }
 @keyframes userShake {
@@ -79,7 +79,7 @@ body{
 }
 
 .container.start .cpu_result {
-    transform-origin: right;
+    transform-origin: left;
     animation: cpuShake 0.7s ease infinite;
 }
 @keyframes cpuShake {
