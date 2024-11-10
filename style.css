@@ -24,10 +24,10 @@ body{
     width: 100px;
 }
 .user_result img{
-    transform: rotate(90deg);
+    transform: rotate(-90deg) rotateY(180deg);
 }
 .cpu_result img{
-    transform: rotate(-90deg) rotateY(180deg);
+    transform: rotate(90deg);
 }
 .result{
     text-align: center;
