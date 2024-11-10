@@ -74,7 +74,7 @@ body{
 @keyframes userShake {
     50%{
         transform: translateY(10px);
-        transform: rotate(10deg);
+        transform: rotate(-10deg);
     }
 }
 
@@ -85,7 +85,7 @@ body{
 @keyframes cpuShake {
     50%{
         transform: translateY(10px);
-        transform: rotate(-10deg);
+        transform: rotate(10deg);
     }
 }
 
